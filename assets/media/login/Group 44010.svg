@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="498.081" height="108.125" viewBox="0 0 498.081 108.125">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientTransform="translate(0)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1"/>
+    </radialGradient>
+  </defs>
+  <g id="Group_44010" data-name="Group 44010" transform="translate(-659.444 -427.048)">
+    <g id="Group_14051" data-name="Group 14051" transform="translate(699.342 439.334)">
+      <g id="Group_13964" data-name="Group 13964" transform="translate(0 0)" opacity="0.53" style="isolation: isolate">
+        <path id="Path_41480" data-name="Path 41480" d="M465.329,104.767H61.988l-42.217,42.2L20.99,148.2l41.717-41.717H465.682a.857.857,0,0,0,.61-.244Z" transform="translate(-8.108 -104.767)" fill="#fff"/>
+        <g id="Group_13960" data-name="Group 13960" transform="translate(0 30.542)">
+          <g id="Group_13958" data-name="Group 13958">
+            <path id="Path_41507" data-name="Path 41507" d="M22.417,27.179A12.275,12.275,0,1,0,42.379,31.02a.7.7,0,0,0-.915-.354.672.672,0,0,0-.366.9,10.746,10.746,0,0,1,.866,4.866A10.89,10.89,0,1,1,31.66,25a11.044,11.044,0,0,1,3.329.707.724.724,0,0,0,.9-.4.7.7,0,0,0-.415-.9,12.427,12.427,0,0,0-3.744-.793A12.29,12.29,0,0,0,22.417,27.179Z" transform="translate(-18.815 -23.589)" fill="#fff"/>
+          </g>
+          <g id="Group_13959" data-name="Group 13959" transform="translate(3.394 3.398)">
+            <path id="Path_41508" data-name="Path 41508" d="M21.7,26.462a8.9,8.9,0,0,0-.012,12.572,8.874,8.874,0,0,0,12.56,0A8.937,8.937,0,0,0,36.58,30.51a.7.7,0,0,0-.854-.488.671.671,0,0,0-.5.841,7.5,7.5,0,0,1-1.951,7.182A7.493,7.493,0,1,1,28.9,25.315l.463.073a.695.695,0,1,0,.256-1.366c-.171-.037-.354-.061-.537-.085A8.81,8.81,0,0,0,21.7,26.462Z" transform="translate(-19.093 -23.867)" fill="#fff"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <circle id="Ellipse_133" data-name="Ellipse 133" cx="50" cy="55" r="20" transform="translate(659.444 427.048)" opacity="0.62" fill="url(#radial-gradient)" style="mix-blend-mode: color-dodge;isolation: isolate"/>
+  </g>
+</svg>

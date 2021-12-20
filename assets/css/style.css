@@ -1,0 +1,149 @@
+/***** General *****/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: url(../media/login/back-img.png) no-repeat center / 200%;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: #fff;
+}
+
+@font-face {
+  font-family: segoui;
+  src: url(../fonts/segoe-ui.ttf);
+}
+
+/**** login body ***/
+/* .login{
+    padding-top: 10px;
+} */
+.login .brand {
+  display: block;
+  width: 75px;
+  margin: 10px auto;
+  position: relative;
+}
+.login h2 {
+  font-size: 25px;
+  padding: 0 0px 30px 0;
+  font-family: segoui;
+}
+.login .midle-img {
+  position: relative;
+  width: 90%;
+  text-align: center;
+}
+.login .midle-img img {
+  width: 400px;
+}
+.login .midle-img h4 {
+  font-size: 16px;
+  position: absolute;
+  left: 75px;
+  bottom: 10px;
+  font-family: segoui;
+}
+.login .midle-img::before {
+  content: "";
+  position: absolute;
+  top: 27px;
+  left: 0px;
+  z-index: -1;
+  height: 20px;
+  width: 20px;
+  background: #67b9fc;
+  box-shadow: 5px 1px 18px #67b9fc, -5px 1px 18px #67b9fc;
+  border-radius: 50%;
+}
+
+.login form {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+  position: relative;
+}
+.login form label input {
+  margin: 10px 0;
+  padding-left: 10px;
+  font-size: 17px;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  width: 300px;
+  height: 40px;
+  line-height: 10;
+  color: #fff;
+  user-select: none;
+  cursor: pointer;
+  margin-bottom: 40px;
+  background-color: rgba(25, 111, 145, 0.4);
+}
+.login form label h6 {
+  margin: 0 0 0 20px;
+  font-weight: normal;
+}
+.login form #show-pass {
+  position: absolute;
+  right: 75px;
+  bottom: 95px;
+  font-size: 15px;
+  cursor: pointer;
+  color: #fff;
+}
+.login form .button {
+  text-align: center;
+}
+.login form #submit {
+  padding: 5px 30px;
+  font-size: 16px;
+  border-radius: 35px;
+  margin-top: 10px;
+  width: 170px;
+  color: #fff;
+  font-weight: bold;
+  background-color: #afe2f7;
+  text-align: center;
+  border: none;
+}
+
+.login form #submit:hover {
+  background-color: #0a506e;
+}
+.login .text-footer {
+  font-size: 13px;
+  margin-top: 30px;
+}
+
+/************************ Media Query *************************/
+@media (max-width: 449px) {
+  .login .midle-img img {
+    width: 80%;
+  }
+  .login .midle-img h4 {
+    font-size: 13px;
+    left: 64px;
+    top: 8px;
+  }
+  .login .midle-img::before {
+    top: 18px;
+    left: 33px;
+    z-index: -1;
+    height: 12px;
+    width: 12px;
+  }
+  .login form label input {
+    width: 250px;
+    height: 35px;
+  }
+  .login .text-footer {
+    font-size: 11px;
+    margin-top: 60px;
+  }
+}
